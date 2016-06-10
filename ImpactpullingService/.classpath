@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+  <classpathentry kind="src" path="src/main/java" including="**/*.java"/>
+  <classpathentry kind="output" path="target/classes"/>
+  <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/camel/camel-jetty/2.15.2/camel-jetty-2.15.2.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/camel/camel-jetty8/2.15.2/camel-jetty8-2.15.2.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/camel/camel-core/2.15.2/camel-core-2.15.2.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/sun/xml/bind/jaxb-core/2.2.11/jaxb-core-2.2.11.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/sun/xml/bind/jaxb-impl/2.2.11/jaxb-impl-2.2.11.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/camel/camel-http/2.15.2/camel-http-2.15.2.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/geronimo/specs/geronimo-servlet_3.0_spec/1.0/geronimo-servlet_3.0_spec-1.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4.jar"/>
+  <classpathentry kind="var" path="M2_REPO/commons-codec/commons-codec/1.10/commons-codec-1.10.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/camel/camel-jetty-common/2.15.2/camel-jetty-common-2.15.2.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/jetty/jetty-server/8.1.16.v20140903/jetty-server-8.1.16.v20140903.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/jetty/jetty-continuation/8.1.16.v20140903/jetty-continuation-8.1.16.v20140903.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/jetty/jetty-http/8.1.16.v20140903/jetty-http-8.1.16.v20140903.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/jetty/jetty-io/8.1.16.v20140903/jetty-io-8.1.16.v20140903.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/jetty/jetty-util/8.1.16.v20140903/jetty-util-8.1.16.v20140903.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/jetty/jetty-servlet/8.1.16.v20140903/jetty-servlet-8.1.16.v20140903.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/jetty/jetty-security/8.1.16.v20140903/jetty-security-8.1.16.v20140903.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/jetty/jetty-servlets/8.1.16.v20140903/jetty-servlets-8.1.16.v20140903.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/jetty/jetty-client/8.1.16.v20140903/jetty-client-8.1.16.v20140903.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/jetty/jetty-jmx/8.1.16.v20140903/jetty-jmx-8.1.16.v20140903.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/camel/camel-test/2.15.2/camel-test-2.15.2.jar"/>
+  <classpathentry kind="var" path="M2_REPO/junit/junit/4.8.1/junit-4.8.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/slf4j/slf4j-simple/1.7.12/slf4j-simple-1.7.12.jar"/>
+</classpath>
