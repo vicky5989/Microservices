@@ -7,6 +7,7 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	<artifactId>ImpactpullingService</artifactId>
+	<packaging>war</packaging>
 
 	<dependencies>
 		<dependency>
@@ -21,6 +22,45 @@
 			<version>2.15.2</version>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>com.verizon.mastars</groupId>
+			<artifactId>MastarsModel</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+      <groupId>org.apache.camel</groupId>
+      <artifactId>camel-spring-boot</artifactId>
+      <version>1.3.5.RELEASE></version>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-web</artifactId>
+      <version>1.3.5.RELEASE></version>
+    </dependency>
+
+    <!-- operations -->
+    <dependency>
+      <groupId>org.jolokia</groupId>
+      <artifactId>jolokia-core</artifactId>
+      <version>1.3.3</version>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-actuator</artifactId>
+      <version>1.3.5.RELEASE></version>
+    </dependency>
+
+    <!-- remote shell -->
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-remote-shell</artifactId>
+      <version>1.3.5.RELEASE></version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.camel</groupId>
+      <artifactId>camel-commands-spring-boot</artifactId>
+      <version>1.3.5.RELEASE></version>
+    </dependency>
 	</dependencies>
 
 </project>

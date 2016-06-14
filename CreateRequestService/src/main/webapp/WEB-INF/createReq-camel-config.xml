@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns = "http://www.springframework.org/schema/beans"
+       xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:camel = "http://camel.apache.org/schema/spring"
+       xmlns:context = "http://www.springframework.org/schema/context"
+       xsi:schemaLocation = "http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+         http://camel.apache.org/schema/spring http://camel.apache.org/schema/spring/camel-spring.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:component-scan base-package = "com.microserv.camel" />
+    
+    <bean id="connectionFactory" class="org.apache.activemq.spring.ActiveMQConnectionFactory">
+		<property name="brokerUrl" value="vm://localhost?broker.persistent=false"/>
+	</bean>
+	<bean id="activemq" class="org.apache.activemq.camel.component.ActiveMQComponent">
+		<property name="connectionFactory" value="connectionFactory"/>
+	</bean>
+
+    <camelContext xmlns="http://camel.apache.org/schema/spring">
+        <route>
+            <from uri="activemq:queue:createrequest.queue" />
+            <log message = "Request processing STARTED" loggingLevel="INFO" />
+             <to uri="activemq:queue:impacts.queue" />
+        </route>
+    </camelContext>
+
+</beans>
